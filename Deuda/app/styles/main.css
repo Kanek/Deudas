@@ -1,0 +1,40 @@
+#cabecera{
+	width: 100%;
+}
+
+#logo{
+	position: absolute;
+	top: 17%;
+	left: 35%;
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+}
+
+p{
+	font-size: 21px;
+	text-align: left;
+}
+
+div{
+	width: 35%;
+	margin: 8%;
+}
+
+#p3{
+	position: absolute;
+	top: 99%;
+	left: 45%;
+}
+
+#pie{
+	position: absolute;
+	left: 65%;
+	top: 85%; 
+}
+
+footer{
+	font-weight: bold;
+}
