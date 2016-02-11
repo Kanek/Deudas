@@ -2,8 +2,8 @@
 
 #logo{
 	position: absolute;
-	top: 61%;
-	left: 52%;
+	top: 35%;
+	left: 35%;
 }
 
 body{
@@ -25,16 +25,29 @@ div{
 	margin: 8%;
 }
 
-#p3{
-	position: absolute;
-	top: 226%;
-	left: 45%;
+.columnas{
+	position: relative;
+	left: 25%;
+
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+
+	-webkit-column-gap: 5em; 
+    -moz-column-gap: 5em;
+    column-gap: 5em;
+
+    text-align: center;
 }
 
-#pie{
+.pie-derecha{
 	position: absolute;
-	left: 80%;
-	top: 190%; 
+	left: 85%;
+}
+
+.pie-centro{
+	position: absolute;
+	left: 50%;
 }
 
 footer{
@@ -56,8 +69,8 @@ footer{
 
 #mapa{
 	position: absolute;
-	top: 17%;
-	left: 23%;
+	top: 10%;
+	left: 16%;
 }
 
 h3{
