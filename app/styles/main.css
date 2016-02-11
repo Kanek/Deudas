@@ -33,12 +33,13 @@ div{
 
 #pie{
 	position: absolute;
-	left: 70%;
+	left: 80%;
 	top: 190%; 
 }
 
 footer{
 	font-weight: bold;
+
 }
 
 #deuda{
@@ -67,4 +68,22 @@ h3{
 	position: absolute;
 	left: 45%;
 	top: 490%
+}
+
+#gobs{
+	margin: 10%;
+	padding-top: 2%;
+}
+
+#gobernadores{
+	background-color: rgb(240, 242, 241);
+	margin: 0;
+	height: 1200px;
+	width: 143%;
+}
+
+#aviso{
+	text-align: center;
+	padding-top: 5%;
+	font-size: 20px;
 }
