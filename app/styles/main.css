@@ -1,9 +1,17 @@
+@font-face {
+	font-family: "Aleo-BoldItalic";
+	src:url(Aleo-BoldItalic.otf);
+}
 
+@font-face {
+	font-family: "Aleo-Light";
+	src:url(Aleo-Light.otf);
+}
 
 #logo{
 	position: absolute;
-	top: 35%;
-	left: 35%;
+	top: 65%;
+	left: 48%;
 }
 
 body{
@@ -13,11 +21,13 @@ body{
 h2{
 	font-size: 40px;
 	text-align: center;
+	font-family: "Aleo-BoldItalic";
 }
 
 p{
 	font-size: 21px;
 	text-align: left;
+	font-family: "Aleo-Light";
 }
 
 div{
@@ -42,18 +52,17 @@ div{
 
 .pie-derecha{
 	position: absolute;
-	left: 85%;
+	left: 80%;
+	font-family: "Aleo-BoldItalic";
+	font-size: 13px;
 }
 
 .pie-centro{
 	position: absolute;
 	left: 50%;
+	font-size: 22px;
 }
 
-footer{
-	font-weight: bold;
-
-}
 
 #deuda{
 	background-color: rgb(240, 242, 241);
@@ -69,12 +78,13 @@ footer{
 
 #mapa{
 	position: absolute;
-	top: 10%;
-	left: 16%;
+	top: 20%;
+	left: 20%;
 }
 
 h3{
 	font-size: 25px;
+	font-family: "Aleo-BoldItalic";
 }
 
 #p6{
@@ -92,7 +102,7 @@ h3{
 	background-color: rgb(240, 242, 241);
 	margin: 0;
 	height: 1200px;
-	width: 143%;
+	width: 1366px;
 }
 
 #aviso{
