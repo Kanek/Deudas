@@ -71,6 +71,10 @@ div{
 	width: 143%;
 }
 
+#cabecera{
+	overflow: hidden;
+}
+
 #monto{
 	margin: 10%;
 	padding-top: 8%;
@@ -98,7 +102,7 @@ h3{
 	padding-top: 2%;
 }
 
-#gobernadores{
+.Gris{
 	background-color: rgb(240, 242, 241);
 	margin: 0;
 	height: 1200px;
